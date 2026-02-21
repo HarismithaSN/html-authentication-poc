@@ -17,5 +17,3 @@ This project demonstrates a simple authentication flow using only HTML.
 - Forgot password page redirects to login after sending reset link
 - Reset password page updates password and redirects to login
 - Dashboard contains logout option
-
-Note: This project uses only HTML. No CSS or JavaScript is included as per assignment instructions.
