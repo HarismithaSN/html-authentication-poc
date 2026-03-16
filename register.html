@@ -1,55 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration Page</title>
+
+<title>Registration Page</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
 
-<center>
-    <h2>CampusPe Registration Page</h2>
+<div class="container d-flex justify-content-center align-items-center vh-100">
 
-    <form action="login.html">
-        <table>
-            <tr>
-                <td>Name:</td>
-                <td><input type="text" name="name" required></td>
-            </tr>
+<div class="card p-4" style="width:400px">
 
-            <tr>
-                <td>Email:</td>
-                <td><input type="email" name="email" required></td>
-            </tr>
+<h3 class="text-center">CampusPe Registration</h3>
 
-            <tr>
-                <td>Phone:</td>
-                <td><input type="tel" name="phone" required></td>
-            </tr>
+<form action="login.html">
 
-            <tr>
-                <td>Password:</td>
-                <td><input type="password" name="password" required></td>
-            </tr>
+<input type="text" class="form-control mb-3" placeholder="Name" required>
 
-            <tr>
-                <td>Confirm Password:</td>
-                <td><input type="password" name="confirm_password" required></td>
-            </tr>
+<input type="email" class="form-control mb-3" placeholder="Email" required>
 
-            <tr>
-                <td></td>
-                <td>
-                    <button type="submit">Register</button>
-                </td>
-            </tr>
-        </table>
-    </form>
+<input type="tel" class="form-control mb-3" placeholder="Phone" required>
 
-    <br>
+<div class="mb-3">
 
-    <!-- Login link -->
-    <a href="login.html">Already have an account? Login</a>
+<input type="password" id="regpass" class="form-control" placeholder="Password" onkeyup="checkStrength()" required>
 
-</center>
+<small id="strength"></small>
+
+</div>
+
+<input type="password" class="form-control mb-3" placeholder="Confirm Password" required>
+
+<button class="btn btn-success w-100">Register</button>
+
+</form>
+
+<div class="text-center mt-3">
+<a href="login.html">Already have account? Login</a>
+</div>
+
+</div>
+</div>
+
+<script>
+
+function checkStrength(){
+
+var pass=document.getElementById("regpass").value
+
+var strength=document.getElementById("strength")
+
+if(pass.length<6){
+strength.innerHTML="Weak Password"
+strength.style.color="red"
+}
+else if(pass.length<10){
+strength.innerHTML="Medium Password"
+strength.style.color="orange"
+}
+else{
+strength.innerHTML="Strong Password"
+strength.style.color="green"
+}
+
+}
+
+</script>
 
 </body>
 </html>
