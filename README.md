@@ -1,19 +1,19 @@
-# HTML Authentication POC
+# Authentication System
 
-This project demonstrates a simple authentication flow using only HTML.
+Simple authentication UI using HTML and Bootstrap.
 
-## Pages Created
+## Pages
 
-1. login.html
-2. register.html
-3. forgot-password.html
-4. reset-password.html
-5. dashboard.html
+- login.html
+- register.html
+- forgot-password.html
+- reset-password.html
+- dashboard.html
 
 ## Features
 
-- Login page redirects to dashboard
-- Registration page collects name, email, phone, password, confirm password
-- Forgot password page redirects to login after sending reset link
-- Reset password page updates password and redirects to login
-- Dashboard contains logout option
+- Login page
+- Registration page
+- Password reset
+- Dashboard
+- Responsive using Bootstrap

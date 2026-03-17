@@ -1,24 +1,9 @@
 body{
-    font-family:Arial, sans-serif;
-    background:linear-gradient(to right,#e3f2fd,#ffffff);
-    transition:0.3s;
-    }
-    
-    .card{
-    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+    font-family: Arial;
+    background: linear-gradient(to right,#e3f2fd,#ffffff);
+}
+
+.card{
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
     border-radius:10px;
-    }
-    
-    button:hover{
-    opacity:0.9;
-    }
-    
-    .dark-mode{
-    background:#121212;
-    color:white;
-    }
-    
-    .dark-mode .card{
-    background:#1e1e1e;
-    color:white;
-    }
+}
