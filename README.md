@@ -17,21 +17,11 @@ This project demonstrates a simple authentication system UI using HTML, Bootstra
 ## Features
 
 - Login page with required validation
-- Registration page with password rules (minimum 8 characters, alphanumeric)
+- Registration page 
 - Forgot password page
 - Reset password page
 - Dashboard page with logout option
-- Show / Hide password
 - Responsive design using Bootstrap
-
----
-
-## Technologies Used
-
-- HTML
-- Bootstrap 5
-- CSS
-- JavaScript
 
 ---
 
