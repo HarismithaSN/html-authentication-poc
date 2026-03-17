@@ -4,7 +4,7 @@ This project demonstrates a simple authentication system UI using HTML, Bootstra
 
 ---
 
-## 📂 Pages
+## Pages
 
 - login.html
 - register.html
@@ -14,7 +14,7 @@ This project demonstrates a simple authentication system UI using HTML, Bootstra
 
 ---
 
-## 🚀 Features
+## Features
 
 - Login page with required validation
 - Registration page with password rules (minimum 8 characters, alphanumeric)
@@ -26,7 +26,7 @@ This project demonstrates a simple authentication system UI using HTML, Bootstra
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML
 - Bootstrap 5
@@ -35,21 +35,21 @@ This project demonstrates a simple authentication system UI using HTML, Bootstra
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🔐 Login Page
+### Login Page
 ![Login](screenshot/login.png)
 
-### 📝 Register Page
+### Register Page
 ![Register](screenshot/register.png)
 
-### ❓ Forgot Password Page
+### Forgot Password Page
 ![Forgot Password](screenshot/forget-password.png)
 
-### 🔁 Reset Password Page
+### Reset Password Page
 ![Reset Password](screenshot/reset.png)
 
-### 🏠 Dashboard Page
+### Dashboard Page
 ![Dashboard](screenshot/welcome.png)
 
 ---
