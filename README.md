@@ -37,16 +37,16 @@ Simply open `index.html` in any browser. No server needed.
 ## Screenshots
  
 ### Login Page
-![Login](screenshots/login.png)
+![Login](screenshot/login.png)
  
 ### Register Page
-![Register](screenshots/register.png)
+![Register](screenshot/register.png)
  
 ### Forgot Password Page
-![Forgot Password](screenshots/forget-password.png)
+![Forgot Password](screenshot/forget-password.png)
  
 ### Reset Password Page
-![Reset Password](screenshots/reset.png)
+![Reset Password](screenshot/reset.png)
  
 ### Dashboard / Welcome Page
-![Welcome](screenshots/welcome.png)
+![Welcome](screenshot/welcome.png)
