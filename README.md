@@ -1,46 +1,52 @@
-# Authentication System Styling
-
-This project demonstrates a simple authentication system UI using HTML, Bootstrap, CSS and JavaScript.
-
----
-
+# CampusPe - Campus Web Application
+ 
+A simple, responsive multi-page web application for campus management built with Bootstrap 5.
+ 
 ## Pages
-
-- login.html
-- register.html
-- forgot-password.html
-- reset-password.html
-- dashboard.html
-
----
-
+ 
+| Page | File | Description |
+|------|------|-------------|
+| Login | `index.html` | User login with email & password |
+| Register | `register.html` | New user registration with validation |
+| Forgot Password | `forgot-password.html` | Send password reset link |
+| Reset Password | `reset-password.html` | Set a new password |
+| Dashboard | `dashboard.html` | Main dashboard after login |
+ 
 ## Features
-
-- Login page with required validation
-- Registration page 
-- Forgot password page
-- Reset password page
-- Dashboard page with logout option
-- Responsive design using Bootstrap
-
----
-
+ 
+- Bootstrap 5 for responsive layout
+- Bootstrap Icons throughout
+- Google Fonts (Poppins)
+- Custom `styles.css` with hover effects, transitions, and card shadows
+- Form validation on all pages
+- Password match check on Register & Reset pages
+- Password visibility toggle
+- Fully responsive for mobile, tablet, desktop
+ 
+## Tech Stack
+ 
+- HTML5
+- CSS3 (Bootstrap 5 + custom styles)
+- Vanilla JavaScript
+- Bootstrap Icons
+ 
+## How to Run
+ 
+Simply open `index.html` in any browser. No server needed.
+ 
 ## Screenshots
-
+ 
 ### Login Page
-![Login](screenshot/login.png)
-
+![Login](screenshots/login.png)
+ 
 ### Register Page
-![Register](screenshot/register.png)
-
+![Register](screenshots/register.png)
+ 
 ### Forgot Password Page
-![Forgot Password](screenshot/forget-password.png)
-
+![Forgot Password](screenshots/forget-password.png)
+ 
 ### Reset Password Page
-![Reset Password](screenshot/reset.png)
-
-### Dashboard Page
-![Dashboard](screenshot/welcome.png)
-
----
-
+![Reset Password](screenshots/reset.png)
+ 
+### Dashboard / Welcome Page
+![Welcome](screenshots/welcome.png)
