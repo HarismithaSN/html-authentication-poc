@@ -27,7 +27,7 @@ A simple, responsive multi-page web application for campus management built with
  
 - HTML5
 - CSS3 (Bootstrap 5 + custom styles)
-- Vanilla JavaScript
+- JavaScript
 - Bootstrap Icons
  
 ## How to Run
