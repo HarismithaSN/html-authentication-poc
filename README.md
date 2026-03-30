@@ -1,3 +1,5 @@
+<div><img src = "https://campuspe.com/logo1.svg" width = 200></div>
+
 # CampusPe - Campus Web Application
  
 A simple, responsive multi-page web application for campus management built with Bootstrap 5.
